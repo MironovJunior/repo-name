@@ -4,7 +4,7 @@ width: 1224px;
 height: 688px;
 left: 108px;
 top: 356px;
-    background-image: url("E:/Рещённые Задания/Практика по веб-разработке/img/Background1.png");  
+    background-image: url("img/Background1.png");  
 }
 
 /* Меню */
@@ -94,7 +94,7 @@ height: 800px;
 left: 0px;
 top: 953px;
 background-color: #FFCCBC;
-background-image: url("E:/Рещённые Задания/Практика по веб-разработке/img/Background2.png");
+background-image: url("img/Background2.png");
 }
 /* Главный текст второго блока */
 .Toward{
@@ -375,7 +375,7 @@ width: 1440px;
 height: 800px;
 left: 0px;
 top: 3860px;
-background-image: url("E:/Рещённые Задания/Практика по веб-разработке/img/Background5.png");
+background-image: url("img/Background5.png");
 }
 /* Главный текст блока 5 */
 .Let{
@@ -977,7 +977,7 @@ margin: 48px 0px;
 }
 /* Блок номер 8 */
 .block_8{
-    background-image: url("E:/Рещённые Задания/Практика по веб-разработке/img/Light.png"); 
+    background-image: url("img/Light.png"); 
     
     position: absolute;
     width: 1440px;
