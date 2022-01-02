@@ -1,0 +1,356 @@
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+
+	<title>Cornelia</title>
+<link href="E:\Рещённые Задания\Практика по веб-разработке\css\style.css" rel="stylesheet">
+<script src="E:\Рещённые Задания\Практика по веб-разработке\js\script.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap.min.js" rel="stylesheet">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+<body>
+	
+<header class = "header">
+		<ul class="menu-main">
+		  <li><h1 class="Cornelia" >Cornelia </h1></li>
+		  <li><a href="" >Leam</a></li>
+		  <li><a href="" class="butto" id="open_pop_up"> About</a></li>
+		  <li><a href="">Why</a></li>
+		  <li><a href="#"class="current" id="button" onclick="View()">Dowload</a></li>
+		</ul>
+		
+		<div class="pop_up" id="pop_up">
+			<div class="pop_up_container" id="pop_up_container">
+				<div class="pop_up_body" id="pop_up_body">
+<p class="Leave">Leave an order</p>
+<form action="">
+	<input type="text" name="name" placeholder="Name">
+	<input type="text" name="phone" placeholder="Phone">
+	<div id="error" style="color: red;"></div>
+	<button onclick="Send()">Leave an order</button>
+</form>
+<div class="pop_up_close" id="pop_up_close" onclick="Close()">&times;</div>
+				</div>
+			</div>
+		</div>
+		<script>
+$(function(){
+    $(".current")
+    .animate(
+        {
+            opacity: 0.25,
+            marginLeft:'250px'
+        },2000)
+        .animate(
+            {
+                opacity: 1.0,
+            marginLeft:'100px'
+            },1000);
+})
+		</script>
+</header>
+
+
+
+
+
+
+
+
+<div class="Main">
+		
+		<p class="MainText">Cornelia<br>
+		is the new </p>
+		<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/Product.png" alt ="Cornelia" class="Main1"/>
+		<h1 class="black">black</h1>
+						
+</div>
+
+<div class="block_2">
+	<h1 class="Toward" >Toward infinity<br>
+		and beyond</h1>
+		<p class="Text_2">
+			Discover your new favourite mascot. With her, boost your imagination<br>
+			and decorate your workspace. May Cornelia accompany you in your<br>
+			 daily life and in the most perilous missions you may encounter.<br> 
+<br>
+With her, give yourself the means to succeed, believe in yourself<br>
+and in your dreams!</p>
+</div>
+
+<div class="block_3" id="acordionGroup">
+	<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/product2.png" alt ="Cornelia2" class="Product2"/>
+		<h2 class="Text_Choose">Choose<br> 
+			your destiny</h2>
+			<div>
+			<p class="Text_Choose2">Each unicorn has its own personality and<br>
+			symbolism. Get to know your new mascot<br>
+			 and surround yourself with a strong ally.<br>
+			  Thus choose the brave one and you will be<br>
+			   able to face any situation. Take the sweet<br>
+				Cornelia and protect your health. If you<br>
+				 need more luck, meet the Magic Cornelia! If<br>
+				  you’re born to be bold, choose the<br>
+				   Impetuous Cornelia : nothing will defeat<br>
+					you.</p>
+				</div>
+		<button class="button">
+			<div>
+				<p class="button_text">Learn more about her story </p>
+			</div>
+	
+		</button>	
+			
+</div>
+
+
+<div class="block_4">
+	<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/Mask_Group.png" alt ="Cornelia3" class="Product3"/>
+	<div class="Text_3">
+		<h2 class="Always">
+			Always<br> 
+			Go futher
+		</h2>
+		<p class="Text_Always">
+			Decline Cornelia as you wish! Black, dark<br>
+			 grey, white, light grey, prussian blue ...<br>
+			  Choose your colour, size and<br>
+			   characteristics! And if that's not enough,<br>
+			    personalise it to make it unique, in your<br>
+				 own image. So open up the field of<br>
+				  possibilities, the world is yours !<br>
+		</p>
+		<div class="SCROLL">
+			<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img//SCROLL.png" alt ="Scroll" />
+			<h1 class="Text_SCROLL">SCROLL TO KNOW MORE</h1>
+		</div>
+		<div class="block_4_2">
+			<h2 class="Premium">Premium<br>
+				3D Quality</h2>
+				<p class="Text_Premium">Now the difference between a unicorn and<br>
+					a pegasus is quite clear a unicorn has a<br>
+					 horn which usually stores their magically<br>
+					  powers while a pegasus can only fly with<br>
+					   its gorgeous wings. Now the difference<br>
+						between a unicorn and a pegasus is quite<br>
+						 clear a unicorn has a horn.</p>
+	   </div>
+			<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/product3.png" alt ="Cornelia2" class="Product4"/>
+			
+				
+	</div>
+</div>
+	
+
+<div class="block_5">
+	<h1 class="Let">Let the magic happen</h1>
+	<p class="Text_Let">Surround yourself with the most faithful companions and embark together on<br>
+		 fantastic new adventures! Pocket, medium or XXL format, find<br> 
+		the Cornelia that best suits your environment.<br> 
+		<br>
+		<b>Oh, and don't worry:</b> Cornelia feeds on your bad vibes, <br>
+		no need to give her water or grass !</p>
+</div>
+
+<div class="block_6">
+	<h2 class="Text_block6">They talk about it better than us</h2>
+	<div class="b1">
+		<p class="b1_text">You've saved our business! Since I invested in
+			 Cornelia I made over 100,000 dollars profits.
+			  Thank you so much for your help</p>
+			  <div class="button_b1"><img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/b1.png" alt ="b1" class="b1_img"/><p>
+				<b>Peter Miguel</b><br>
+				CEO @Combinator 
+			  </p></div>
+			  
+	</div>
+	<div class="b2">
+		<p class="b2_text">Lorem ipsum dolor sit amet, consectetur<br>
+			 adipiscing elit. Pellentesque libero cras </p>
+			  <div class="button_b2"><img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/b2.png" alt ="b2" class="b2_img"/><p>
+				<b>Linda R. Huff</b><br>
+				Happiness Manager @BlueSky 
+			  </p> </div>
+			  
+	</div>
+	<div class="b3">
+		<p class="b3_text">We can't understand how we've been living
+			 without Cornelia. We have no regrets! Since I
+			  invested in Cornelia I made over 100,000
+			   dollars profits. Needless to say we are
+			    extremely satisfied with the results. Cornelia
+				 is the most valuable business resource we
+				  have EVER purchased. Definitely worth the
+				   investment. Not able to tell you how happy I
+				    am with Cornelia. I am so pleased with this
+					 product.</p>
+			  <div class="button_b3"><img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/b3.png" alt ="b3" class="b3_img"/><p>
+				<b>Valentine Sutton</b><br>
+				Product Designer @Tools
+			  </p> </div>
+			</div>
+	<div class="b4">
+		<p class="b4_text">Cornelia has got everything I need. Your
+			 company is truly upstanding and is behind its
+			  product 100%. I can't say enough about
+			   Cornelia. I'm good to go.</p>
+						  <div class="button_b2"><img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/b4.png" alt ="b4" class="b4_img"/><p>
+							<b>Helen Womack</b><br>
+							CTO @Stoock
+						  </p> </div>
+	
+	<div class="b5">
+		<p class="b5_text">
+			Without Cornelia, we would have gone
+			bankrupt by now
+		</p>
+		<div class="button_b5">
+			<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/b5.png" class="b5_img"/>
+			<p><b>Sarah Ewing</b><br>
+				Digital Manager @FullSocial</p>
+			</div>
+	</div>
+
+						  
+			
+	<div class="b6">
+		<p class="b6_text">
+			Cornelia did exactly what you said it does. I'd
+			 be lost without Cornelia. I just can't get
+			  enough of Cornelia. I want to get a T-Shirt
+			   with Cornelia on it so I can show it off to
+			    everyone. I would like to personally thank
+				 you for your outstanding product.
+		</p>
+		<div class="button_b6">
+			<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/b6.png" class="b6_img"/>
+			<p><b>Debra Peters</b><br>
+				Product Owner @Generate</p>
+			</div>
+	</div>
+
+	<div class="b7">
+		<p class="b7_text">
+			We were treated like royalty
+		</p>
+		<div class="button_b7">
+			<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/b7.png" class="b7_img"/>
+			<p><b> Vida Inman</b><br>
+				Sales Manager @UShould</p>
+			</div>
+	</div>	  
+	<div class="b8">
+		<p class="b8_text">
+			I don't know what else to say. I made back
+			 the purchase price in just 48 hours! The
+			  service was excellent. Cornelia saved my
+			   business. I love Cornelia. We've seen
+			    amazing results already. Cornelia is the most
+				 valuable business resource we have EVER
+				  purchased. If you aren't sure, always go for
+				   Cornelia.
+		</p>
+		<div class="button_b8">
+			<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/b8.png" class="b8_img"/>
+			<p><b> John Morgan</b><br>
+				CEO @FunkyToys</p>
+			</div>
+	</div>	  
+
+	<div class="b9">
+		<p class="b9_text">
+			We've seen amazing results already. Buy this
+			 now. I couldn't have asked for more than this.
+			  Cornelia has completely surpassed our
+			   expectations. I just can't get enough of Cornelia. I want to get a T-Shirt with Cornelia on it so I can show it off to everyone. Thanks to Cornelia, we've just launched our 5th website! I will let my mum know about this, she could really make use of Cornelia!
+Thanks for the great service. The service was excellent. Cornelia is worth much more than I paid. I would gladly pay over 600 dollars for Cornelia. We can't understand how we've been living without Cornelia.
+		</p>
+		<div class="button_b9">
+			<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/b9.png" class="b9_img"/>
+			<p><b> Larry Davis</b><br>
+				Traffic Manager @Upside</p>
+			</div>
+	</div>
+
+<div class="b10">
+		<p class="b10_text">
+			Cornelia is both attractive and highly adaptable. Just what I was looking for. I don't always clop, but when I do, it's because of Cornelia. I love Cornelia. Great job, I will definitely be ordering again! Thank you for making it painless, pleasant and most of all hassle free! You guys rock! Thanks for the great service. The service was excellent. Cornelia is worth much more than I paid. I would gladly pay over 600 dollars for Cornelia. We can't understand how we've been living without Cornelia.
+			</p>
+		<div class="button_b10">
+			<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/b10.png" class="b10_img"/>
+			<p><b> Joe Lembrouille
+				</b><br>
+				Photographer @Streetz</p>
+			</div>
+	</div>
+ 
+	</div>
+	<div>
+
+	</div>
+	<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/Background6.png" alt ="Background6" class="Background6"/>
+</div>
+
+
+<div class="block_7">
+	<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/Circles.png" alt ="Circles" class="Circles"/>
+	<h2 class="Text_block7">Each lesser<br>
+		detail matter</h2>
+		<p class="Text_block7_text">Cornelia is an all-in-one tool that helps teams<br>
+			 design every part of the product experience.<br>
+			  Download and get to a functional prototype<br>
+			   faster than ever.</p>
+			   <button class="button_block7">Discover Cornelia</button>
+</div>
+
+
+<div class="block_8">
+	<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/product8.png" alt ="Circles8" class="Product8"/>
+	<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/logo_app.png" alt ="logo" class="logo"/>
+	<h2 class="Text_block8">Unicorns exist</h2>
+	<p class="Text2_block8">Download our appliaction on the AppStore<br>
+		 or the 3D model of Cornelia and meet your<br>
+		  new mascot ! Take some cool pictures of her<br>
+		   and share it on Instagram, Twitter and<br>
+		    Facebook with <b>#CorneliaTheUnicorn !</b></p>
+			<button class="button_block8" id="myBtn">Meet Cornelia in VR</button>
+</div>
+
+<script>
+	$(document).ready(function(){
+		$(".button_block8").click(function(){
+			$(".Product8").slideToggle(2000);
+		})
+	})
+
+</script>
+<footer class="footer">
+	<h1 class="Text_footer"><b>Get started with<br>
+		Cornelia today</b></h1>
+			<h3 class="h3" ><b>Cornelia</b></h3>
+			<div>
+				<p class="Text_block9">Design & Development</p>
+			</div>
+		<button class="button_footer1" onclick="redirect1()">Download for Figma</button>
+		<button class="button_footer2"onclick="redirect2()">Download for Sketch</button>
+		<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/Figma_logo_1.png" alt ="Figma_logo_1" class="Figma_logo_1"/>
+		<img src="file:///E:/Рещённые Задания/Практика по веб-разработке/img/Sketch_Logo_1.png" alt ="Sketch_Logo_1" class="Sketch_Logo_1"/>
+			
+</footer> 
+<script>
+	$("#accordionGroup").accordion({
+		"animate":true,
+		"collapsible":true
+	});
+</script>
+
+		
+</div>
+
+</body>
+</html>

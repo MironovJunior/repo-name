@@ -1,0 +1,1297 @@
+.Main1 {
+    position: absolute;
+width: 1224px;
+height: 688px;
+left: 108px;
+top: 356px;
+    background-image: url("E:/Рещённые Задания/Практика по веб-разработке/img/Background1.png");  
+}
+
+/* Меню */
+    .top-menu {
+        position: relative; 
+      }
+      .menu-main {
+        list-style: none;
+        padding: 0 30px;
+        margin: 0;
+        font-size: 18px;
+        position: relative;
+      }
+      .menu-main li {
+        display: inline-block;
+        padding: 5px 0;
+      }
+      /* Название */
+      .Cornelia{
+          
+          margin: 0px 300px;
+          text-align: left;
+          color: #0B4141;  
+          left: 10px;
+      }
+      .menu-main a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 6px 15px;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 16px;
+        color: #0B4141;
+        border-bottom: 1px solid transparent;
+        transition: .3s linear;
+      }
+      /* Dowland */
+      .current{
+        border-radius: 124px;
+        margin: -10px;
+      }
+      .menu-main .current, .menu-main a:hover {
+        background: #0B4141;
+        color: #FFCCBC;
+      }
+      /* Главный текст */
+.MainText {
+ 
+    position: absolute;
+    width: 847px;
+    height: 256px;
+    left: 311px;
+    top: 104px;   
+    font-family: Motter Corpus Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 128px;
+    text-align: center;
+  color: #FFCCBC;
+
+}
+/* Второй главный текст */
+.black
+{
+color: linear-gradient(#0B4141 50%, #0B1F1F 50%);
+    text-align: center;
+    font-size: 120px;
+    position: absolute;
+width: 392px;
+height: 128px;
+left: 580px;
+top: 380.17px;
+font-family: Motter Corpus Std;
+font-style: normal;
+font-weight: normal;
+font-size: 120px;
+line-height: 128px;
+display: flex;
+align-items: flex-end;
+text-align: center;    
+}
+/* Второй блок */
+.block_2 {
+    position: absolute;
+width: 1440px;
+height: 800px;
+left: 0px;
+top: 953px;
+background-color: #FFCCBC;
+background-image: url("E:/Рещённые Задания/Практика по веб-разработке/img/Background2.png");
+}
+/* Главный текст второго блока */
+.Toward{
+position: absolute;
+width: 1440px;
+height: 192px;
+left: 0px;
+top: 150px;
+font-family: Motter Corpus Std;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 96px;
+text-align: center;
+color: #FFFFFF;
+mix-blend-mode: normal;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+/* Текст второго блока */
+.Text_2{
+    position: absolute;
+height: 224px;
+left: 24.06%;
+right: 24.06%;
+top: calc(50% - 224px/2 + 108px);
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+}
+/* Третий блок */
+.block_3{
+    position: absolute;
+width: 1440px;
+height: 800px;
+left: 0px;
+right: 0px;
+top: 1753px;
+    background: #0B4141;
+}
+/* Картинка третьего блока */
+.Product2{
+    position: absolute;
+width: 720px;
+height: 800px;
+left: 720px;
+top: 0px;
+}
+/* Главный текст третьего блока */
+.Text_Choose{
+    position: absolute;
+width: 479px;
+height: 143px;
+left: 100px;
+top: 50px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 72px;
+color: #FFCCBC;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 32px 0px;
+}
+/* Текст третьего блока */
+.Text_Choose2{
+    position: absolute;
+width: 475px;
+height: 320px;
+left: 100px;
+top: 250px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+color: #FFCCBC;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
+/* Кнопка третьего блока */
+.button{
+    cursor: pointer;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 34px;
+background-color: #0B4141;
+position: absolute;
+width: 291px;
+height: 49px;
+left: 100px;
+top: 593px;
+border: 2px solid #FFCCBC;
+box-sizing: border-box;
+border-radius: 100px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 48px 0px;
+}
+.button_text {
+    color:  #FFCCBC;
+}
+/* Четвёртый блок */
+.block_4{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 1440px;
+height: 1288px;
+left: 0px;
+top: 2649px;
+}
+/* Картинка в 4-ом блоке */
+.Product3{
+    
+    position: absolute;
+    width: 508px;
+    height: 523px;
+    left: 100px;
+    top: 70.5px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;}
+    /* Главный текст 4-ого блока */
+.Always{
+    position: absolute;
+    width: 720px;
+    height: 800px;
+    left: 720px;
+    top: 0px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 72px;
+color: #FFCCBC;
+}
+/* Текст 4-ого блока */
+.Text_Always{
+    position: absolute;
+    width: 720px;
+    height: 800px;
+    left: 720px;
+    top: 200px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+color: #0B4141;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
+/* Надпись с мышкой */
+.SCROLL{
+    position: absolute;
+    width: 194px;
+    height: 22px;
+    left: 700px;
+    top: 500px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #0B4141;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+/* Текст мышки */
+.Text_SCROLL{
+    position: absolute;
+width: 300px;
+height: 22px;
+left: 32px;
+top: 1px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #0B4141;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+/* Подблок 4 */
+.Product4{
+    position: absolute;
+width: 502px;
+height: 566px;
+left: 700px;
+top: 600px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+/* Главный текст подблока 4 */
+.Premium{
+    position: absolute;
+width: 464px;
+height: 144px;
+left: 100px;;
+top: 650px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 72px;
+color: #0B4141;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+/* Текст подблока 4 */
+.Text_Premium{
+    position: absolute;
+width: 464px;
+height: 224px;
+left: 100px;
+top: 824px;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+color: #0B4141;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+/* Блок 5 */
+.block_5{
+    position: absolute;
+width: 1440px;
+height: 800px;
+left: 0px;
+top: 3860px;
+background-image: url("E:/Рещённые Задания/Практика по веб-разработке/img/Background5.png");
+}
+/* Главный текст блока 5 */
+.Let{
+    position: static;
+width: 1440px;
+height: 96px;
+left: 0px;
+top: 0px;
+
+font-family: Motter Corpus Std;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 96px;
+text-align: center;
+color: #FFCCBC;
+
+mix-blend-mode: normal;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+/* Текст блока 5 */
+.Text_Let{
+    position: static;
+height: 192px;
+left: 19.1%;
+right: 19.1%;
+top: calc(50% - 192px/2 + 60px);
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #0B4141;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+}
+/* Блок 6 */
+.block_6{
+    position: absolute;
+width: 1440px;
+height: 1199.35px;
+left: 0px;
+top: 4833px;
+background: radial-gradient(at top, #FFCCBC, #FEFFFF);
+    /* Главный текст блока 6 */
+}
+.Text_block6{
+    position: static;
+width: 1440px;
+height: 72px;
+left: calc(50% - 1440px/2);
+top: calc(50% - 72px/2 - 447px);
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 72px;
+text-align: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 64px 0px;
+}
+/* Таб блока 6 */
+.b1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;   
+    position: absolute;
+    width: 304px;
+    height: 158px;
+    left: 200px;
+    top: 150px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+.b1_text,.b2_text,.b3_text,.b4_text,.b5_text,.b6_text,.b7_text,.b8_text,.b9_text,.b10_text{
+    position: static;
+    width: 264px;
+    height: 54px;
+    left: calc(50% - 264px/2);
+    bottom: 84px;
+    
+    /* Paragraph */
+    
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    
+    /* Primary */
+    
+    color: #0B4141;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.button_b1,.button_b2{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 264px;
+height: 48px;
+left: -20px;
+bottom: 10px;
+
+}
+
+.b2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+
+position: absolute;
+width: 304px;
+height: 140px;
+left: 200px;
+    top: 375px;
+
+background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(12px);
+
+border-radius: 8px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.button_b2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 264px;
+    height: 48px;
+    left: calc(50% - 264px/2);
+    bottom: 20px;
+    
+}
+
+.b2_img{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 48px;
+height: 48px;
+left: 0px;
+top: 0px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 12px;
+}
+.b3{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+
+position: absolute;
+width: 304px;
+height: 284px;
+left: 200px;
+    top: 575px;
+
+background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(12px);
+
+border-radius: 8px;
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+
+    
+}
+
+.b3_img,.b4_img,.b5_img,.b6_img,.b7_img,.b8_img,.b9_img,.b10_img{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: 48px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
+}
+
+
+.button_b3{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 0px;
+    cursor: pointer;
+    position: static;
+    width: 264px;
+    height: 48px;
+    left: calc(50% - 264px/2);
+    bottom: 20px;
+     
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.b4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    
+    position: absolute;
+    width: 304px;
+    height: 176px;
+    left: 200px;
+    top: 920px;
+      
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+ 
+    border-radius: 8px;
+   
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.b5{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+
+position: absolute;
+width: 304px;
+height: 140px;
+left: 375px;
+top: -800px;
+
+background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(12px);
+
+border-radius: 8px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.button_b5{
+    display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+padding: 0px;
+cursor: pointer;
+position: static;
+width: 264px;
+height: 48px;
+left: calc(50% - 264px/2);
+bottom: 20px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.b6{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+
+
+position: absolute;
+width: 304px;
+height: 212px;
+left: 375px;
+top: -600px;
+
+background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(12px);
+border-radius: 8px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.button_b6{
+    display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+padding: 0px;
+cursor: pointer;
+position: static;
+width: 264px;
+height: 48px;
+left: calc(50% - 264px/2);
+bottom: 20px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.b7{
+    position: absolute;
+    width: 304px;
+    height: 122px;
+left: 375px;
+top: -325px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+
+background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(12px);
+
+border-radius: 8px;
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.button_b7{
+    display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+padding: 0px;
+cursor: pointer;
+position: static;
+width: 264px;
+height: 48px;
+left: calc(50% - 264px/2);
+bottom: 20px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.b8{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+
+position: absolute;
+width: 304px;
+height: 248px;
+left: 375px;
+top: -140px;
+
+background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(12px);
+border-radius: 8px;
+
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.button_b8{
+    display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+padding: 0px;
+cursor: pointer;
+position: static;
+width: 264px;
+height: 48px;
+left: calc(50% - 264px/2);
+bottom: 20px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.b9{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+
+position: absolute;
+width: 304px;
+height: 360px;
+left: 750px;
+top: -800px;
+
+background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(12px);
+border-radius: 8px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.button_b9{
+    display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+padding: 0px;
+cursor: pointer;
+position: static;
+width: 264px;
+height: 48px;
+left: calc(50% - 264px/2);
+bottom: 20px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.b10{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+
+position: absolute;
+width: 304px;
+height: 320px;
+left: 750px;
+top: -375px;
+
+background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(12px);
+
+border-radius: 8px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.button_b10{
+    display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+padding: 0px;
+cursor: pointer;
+position: static;
+width: 264px;
+height: 48px;
+left: calc(50% - 264px/2);
+bottom: 20px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+/* Блок номер 7 */
+.block_7{
+    position: absolute;
+width: 1440px;
+height: 701px;
+left: 0px;
+top: 6128.35px;
+}
+/* Три картинки блока 7 */
+.Circles{
+    position: absolute;
+    width: 554px;
+    height: 665px;
+    left: 96px;
+    top: 4.65px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* Главный текст блока 7 */
+.Text_block7{
+    position: absolute;
+    width: 720px;
+    height: 800px;
+    left: 720px;
+    top: 0px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 72px;
+color: #0B4141;
+}
+/* Текст блока 7 */
+.Text_block7_text{
+    position: absolute;
+    width: 720px;
+    height: 800px;
+    left: 720px;
+    top: 200px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+color: #0B4141;
+}
+/* Кнопка блока 7 */
+.button_block7{
+
+    display: inline-block;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 34px;
+position: absolute;
+width: 225px;
+height: 42px;
+left: 720px;
+top: 400px;
+cursor: pointer;
+background-color: white;
+border: 2px solid #0B4141;
+box-sizing: border-box;
+border-radius: 100px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 48px 0px;
+}
+/* Блок номер 8 */
+.block_8{
+    background-image: url("E:/Рещённые Задания/Практика по веб-разработке/img/Light.png"); 
+    
+    position: absolute;
+    width: 1440px;
+    height: 728px;
+    left: 0px;
+    top: 6925.35px;    
+}
+/* Картинка с единорогом в блоке номер 8 */
+.Product8{
+    position: absolute;
+    width: 1042px;
+    height: 719px;
+    left: 462px;
+    top: -px;
+}
+.logo{
+    position: absolute;
+width: 118px;
+height: 118px;
+left: 260px;
+top: 150px;
+}
+
+.Text_block8{
+    position: absolute;
+    width: 467px;
+    height: 72px;
+left: 140px;
+top: 250px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 72px;
+color: #0B4141;
+}
+.Text2_block8{
+    position: absolute;
+width: 472px;
+height: 160px;
+left: 140px;
+top: 400px;
+
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+
+color: #0B4141;
+
+}
+.button_block8{
+cursor: pointer;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color:white;
+padding: 12px 34px;
+
+position: absolute;
+width: 225px;
+height: 54px;
+left: 140px;
+top: 650px;
+
+border: 2px solid #0B4141;
+box-sizing: border-box;
+border-radius: 100px;
+
+
+color: #0B4141;
+
+}
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    left: 0px;
+    top: 7653px;
+
+background: #0B4141;
+mix-blend-mode: normal;
+}
+.Text_footer{
+    position: absolute;
+width: 1440px;
+height: 192px;
+left: 0px;
+top: 236px;
+
+font-family: Motter Corpus Std;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 96px;
+
+text-align: center;
+
+color: #FFCCBC;
+
+mix-blend-mode: normal;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 48px 0px;
+}
+.h3{
+    position: absolute;
+width: 167px;
+height: 22px;
+left: 96px;
+top: 677px;
+
+
+font-family: Motter Corpus Std;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFCCBC;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.Text_block9{
+    position: absolute;
+    width: 169px;
+    height: 22px;
+    left: calc(50% - 169px/2 - 539.5px);
+    top: calc(50% - 22px/2 + 322px);
+
+font-family: Nunito Sans;
+font-size: 16px;
+color: #FFCCBC;
+}
+
+.button_footer1{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 31px 60px;
+    border: 2px solid #FFCCBC;
+    box-sizing: border-box;
+    border-radius: 300px;
+    position: absolute;
+    width: 262px;
+    height: 72.24px;
+    left: 400px;
+    top: 540px;
+    text-align: center;
+background-color:#0B4141 ;
+font-family: Nunito Sans;
+font-size: 16px;
+
+
+color: #FFCCBC;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 12px;
+
+}
+.button_footer2{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 31px 60px;
+    border: 2px solid #FFCCBC;
+    box-sizing: border-box;
+    border-radius: 300px;
+    position: absolute;
+    width: 262px;
+    height: 72.24px;
+    left: 800px;
+    top: 540px;
+    text-align: center;
+background-color:#0B4141 ;
+font-family: Nunito Sans;
+font-size: 16px;
+
+
+color: #FFCCBC;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 12px;
+
+}
+.Figma_logo_1{
+    position: absolute;
+width: 22px;
+height: 30.24px;
+left: 420px;
+top: 560px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 12px;
+}
+.Sketch_Logo_1{
+    position: absolute;
+left: 11.49%;
+right: 75.48%;
+left: 820px;
+top: 560px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 12px;
+}
+/* Carousel */
+.my-carousel {
+	padding: 0;
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    left: 0px;
+    top: 9153px;
+
+}
+
+.my-carousel .carousel-item {
+	display: flex;
+	max-height: 500px;
+}
+
+.my-carousel .carousel-item img {
+	object-fit: cover;
+}
+/* Carousel */
+#pop_up{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+#pop_up.active{
+    display: block;
+}
+.pop_up_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.pop_up_body{
+    margin: auto;
+    width: 500px;
+    background-color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+
+
+}
+
+.pop_up_body_p{
+    font-size: 28px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
+    color: #222620;
+    margin-bottom: 40px;
+}
+.pop_up_body input{
+    display: block;
+    margin: 25px auto 0px auto;
+    width: 300px;
+    padding: 17px 28px;
+    background-color: #a6a6a7;
+    border-radius: 10px;
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black; 
+}
+.pop_up_body button{
+    cursor: pointer;
+    display: block;
+    width: 330px;
+    margin: 60px auto 0px auto;
+    padding: 20px 8px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: pink;
+
+}
+.pop_up_close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 21px;
+    cursor: pointer;
+}
+.Leave{
+    font-size: 48px;
+}
